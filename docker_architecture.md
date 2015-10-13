@@ -10,4 +10,4 @@ The user does not interact directly with the **daemon**, but instead through the
 ## How things work on OS X
 As we said before, Docker client and the daemon can run on the same system, or you can...
 
-[img1]: images/architecture.png
+[img1]: images/docker_architecture.png
