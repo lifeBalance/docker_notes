@@ -94,7 +94,7 @@ The output above shows us one machine named **default** running. Let's go over i
 
 * The `NAME` label is self explanatory.
 * `ACTIVE` means that if we have running several virtual machines, only one of them is **active** at any given point, meaning that we can interact with its environment.
-* The `DRIVER` label in this case is `virtualbox`. The **driver** represents the virtual environment. For example, on a local Linux, Mac, or Windows system the driver is typically [Oracle Virtual Box][]. For cloud providers, Docker Machine supports drivers such as AWS, Microsoft Azure, Digital Ocean and many more. A complete list of the supported drivers is available [here][].
+* The `DRIVER` label in this case is `virtualbox`. The **driver** represents the virtual environment. For example, on a local Linux, Mac, or Windows system the driver is typically [Oracle Virtual Box][2]. For cloud providers, Docker Machine supports drivers such as AWS, Microsoft Azure, Digital Ocean and many more. A complete list of the **supported drivers** is available [here][3].
 
 > We have to specify a **driver** when creating a Docker machine.
 
@@ -186,16 +186,18 @@ So far, we have seen Docker Machine commands for doing basic operations with mac
 * start, stop, and restart machines
 * listing, create and remove them
 
-But Docker Machine supplies a lot more commands for managing them. Check the whole list [here][2].
+But Docker Machine supplies a lot more subcommands for managing them. Check the whole list [here][4].
 
 Let's see some more of them
 
 * upgrade the Docker client and daemon
 * configure a Docker client to talk to your host
 
+** FINISH IT! **
 
-
-[img1]: linux_docker_host.svg
-[img2]: mac_docker_host.svg
+[img1]: images/linux_docker_host.png
+[img2]: images/mac_docker_host.png
 [1]: https://hub.docker.com/_/hello-world/
-[2]:
+[2]: https://www.virtualbox.org/
+[3]: https://docs.docker.com/machine/drivers/
+[4]: https://docs.docker.com/machine/reference/

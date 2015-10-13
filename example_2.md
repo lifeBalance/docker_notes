@@ -78,7 +78,7 @@ $ curl http://$(docker-machine ip default):32771
 
 And indeed it works. Note how we are using the output of `docker-machine ip` as part of the argument to the `curl` command.
 
----
+** FINISH IT! **
 
 ## Another example
 Building up on the two last examples, this time we are gonna tackle on a slightly more difficult Docker project. It's going to involve several **containers** interacting with each other:
@@ -90,9 +90,9 @@ Building up on the two last examples, this time we are gonna tackle on a slightl
 ### The counter script
 We are going to use the same `Dockerfile` we used in the last example. This time we are just going to modify the script itself; these are the contents:
 
-
+** FINISH IT! **
 
 
 [1]: http://nginx.org/
 [2]: https://hub.docker.com/_/nginx/
-[img1]: port_mappings.png
+[img1]: images/port_mappings.png
